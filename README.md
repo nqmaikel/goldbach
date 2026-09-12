@@ -1,3 +1,7 @@
+![Goldbach project cover](assets/showcase/cover.png)
+
+*Concept illustration created for this showcase.*
+
 <div align="center">
 
 <h1>Goldbach</h1>
@@ -24,9 +28,26 @@ The project focuses on clearly defined observations, comparisons and uncertainty
 - Annual comparisons and sensitivity analysis.
 - Documented data-quality checks and uncertainty estimates.
 
+## Visual overview
+
+![Goldbach feature overview](assets/showcase/overview.png)
+
 ## High-level workflow
 
-Prepare historical market data, construct session profiles, compare subsequent behavior with the previous session's levels, then examine annual patterns and sensitivity to the study's assumptions.
+```mermaid
+flowchart LR
+    A["Historical market data"] --> B["Session profiles"]
+    B --> C["Previous-session levels"]
+    C --> D["Behavior comparisons"]
+    D --> E["Sensitivity review"]
+
+    classDef stage fill:#f1f5f9,stroke:#64748b,color:#0f172a
+    classDef outcome fill:#e0f2fe,stroke:#0284c7,color:#0c4a6e
+    class A,B,C,D stage
+    class E outcome
+```
+
+Annual comparisons and sensitivity analysis help examine how the study's assumptions affect the observations.
 
 ## Stack
 
@@ -38,6 +59,6 @@ Exploratory research using volume profiles approximated from one-minute candles.
 
 ## About this repository
 
-This repository is a public showcase. Source code, datasets and research output files remain private; only this English project overview is published.
+This repository is a public showcase. Only presentation material is published; source code and private data remain private.
 
 **Last showcase review:** 2026-09-12 (Europe/Paris).
