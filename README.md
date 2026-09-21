@@ -143,4 +143,4 @@ This repository is the project's public showcase. It contains English documentat
 unaltered screenshots of the actual report. Source code, raw datasets, notebooks and the original
 research output files remain private.
 
-**Last showcase review:** 2026-09-12 (Europe/Paris).
+**Last showcase review:** 2026-09-20 (Europe/Paris).
